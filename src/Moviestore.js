@@ -12,7 +12,7 @@ export default function Moviestore() {
         const [movies,setMovies] = useState([]);
         
 
-        const url = `http://www.omdbapi.com/?apikey=e68c8c5
+        const url = `https://www.omdbapi.com/?apikey=e68c8c5
         `;
         const getdata = async () => {
             if (query !== "") {
